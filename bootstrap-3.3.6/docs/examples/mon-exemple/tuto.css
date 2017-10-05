@@ -1,0 +1,23 @@
+body {
+  padding-top: 50px;
+}
+
+[class*="col-"] {
+  background-color: lightgreen;
+  border: 1px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+
+article.col-sm-10, section.col-lg-8, section.col-sm-10, nav.col-sm-2 {
+    line-height: 100px;
+}
+
+footer {
+    border: 0;
+}
+
+article.col-sm-6, nav.col-sm-2 {
+    line-height: 60px;
+}
